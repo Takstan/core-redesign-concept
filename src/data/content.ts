@@ -1,10 +1,15 @@
 import { ServiceItem, ProjectItem, TestimonialItem, FAQItem } from '../types/index.ts';
+import heroImg from '../assets/images/hero_core_advantage_1792495987776.jpg';
+import dumpsterImg from '../assets/images/service_dumpsters_1792495987901.jpg';
+import demoImg from '../assets/images/service_demolition_1792495988341.jpg';
+import snowImg from '../assets/images/service_snow_turf_1792495989099.jpg';
+import metalImg from '../assets/images/service_metal_fab_1792495989064.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_core_advantage_1792495987776.jpg';
-export const DUMPSTER_IMAGE = '/src/assets/images/service_dumpsters_1792495987901.jpg';
-export const DEMO_IMAGE = '/src/assets/images/service_demolition_1792495988341.jpg';
-export const SNOW_IMAGE = '/src/assets/images/service_snow_turf_1792495989099.jpg';
-export const METAL_IMAGE = '/src/assets/images/service_metal_fab_1792495989064.jpg';
+export const HERO_IMAGE = heroImg;
+export const DUMPSTER_IMAGE = dumpsterImg;
+export const DEMO_IMAGE = demoImg;
+export const SNOW_IMAGE = snowImg;
+export const METAL_IMAGE = metalImg;
 
 export const SERVICES: ServiceItem[] = [
   {
